@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLA</title>
+    <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+    <h2 class="tituloTabla">TABLA DE GESTION</h2>
+    <table id="tabla" border="2">
+        <tr>
+            <td >CURSO</td>
+            <td>MATERIAS</td>
+            <td>NUMERO DE ESTUDIANTES MATRICULADOS</td>
+            <td>PROMEDIO NOTAS</td>
+            <td>VALOR MATRICULA</td>
+            <td>AGREGAR INF</td>
+        </tr>
+        <tr>
+            <td>BootCamp 1</td>
+            <td>JavaScript<br>Ingles B<br>Python</td>
+            <td>700</td>
+            <td>4.1</td>
+            <td>4.900.000</td>
+            <td><button type="submit" id="btnAgregar"></button><br><label for="btnAgregar">Agregar</label></td>
+        </tr>
+        <tr>
+            <td>BootCamp Full Stack</td>
+            <td>JavaScript<br>Ingles B<br>Git<br>GitHub<br>Lenguaje de Backend<br></td>
+            <td>1000</td>
+            <td>4.5</td>
+            <td>5.800.000</td>
+            <td><button type="submit" id="btnAgregar"></button><br><label for="btnAgregar">Agregar</label></td>
+        </tr>
+        <tr>
+            <td>BootCamp Full Stack<br>Avanzado</td>
+            <td>JavaScript<br>Ingles B<br>Git<br>GitHub<br>Lenguaje de Backend<br></td>
+            <td>300</td>
+            <td>4.0</td>
+            <td>7.500.000</td>
+            <td rowspan="2"><button type="submit" id="btnAgregar"></button><br><label for="btnAgregar">Agregar</label></td>
+        </tr>
+        <tr>
+            <td colspan="2">TOTAL</td>
+            <td>2000<br></td>
+            <td>4.3</td>
+            <td>18.200.000</td>
+            <td></td>
+        </tr>   
+    </table>
+    <a href="./index.html">
+        <button class="btnVolver">Volver Gestionar</button>
+    </a>
+</body>
+</html>

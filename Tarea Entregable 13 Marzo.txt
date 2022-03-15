@@ -1,0 +1,108 @@
+
+1) Dado el array = [1,2,3,4,5,6]
+
+a. Iterar por todos los elementos dentro de un array utilizando while y mostrarlos en pantalla.
+
+var i = [1,2,3,4,5,6];
+var num = 0;
+var resultado = []
+while(num < i.length){
+console.log(i[num]);
+num++;
+resultado.push(num);
+}
+console.log(resultado);
+
+
+b. Iterar por todos los elementos dentro de un array utilizando for y mostrarlos en pantalla.
+
+var a = [1,2,3,4,5,6];
+var i = 0;
+var resultado = [];
+for(i = 0;i < a.length; i++){
+var itera = a[i]
+ console.log(itera);
+ resultado.push(itera)
+}
+console.log(resultado);
+
+ 
+c. Mostrar todos los elementos dentro de un array sumándole uno a cada uno.
+
+var a = [1,2,3,4,5,6];
+var i = 0;
+var resultado = [];
+for(i = 0;i < a.length; i++){
+var iteraSuma = a[i] + 1
+console.log(iteraSuma);
+resultado.push(iteraSuma)
+}
+console.log(resultado);
+
+
+d. Generar una copia de un array pero con todos los elementos incrementado en 12.
+
+var a = [1,2,3,4,5,6];
+var i = 0;
+let resultado = [];
+for(i = 0;i < a.length; i++){
+var iteraSuma = a[i] + 12
+resultado.push(iteraSuma )
+console.log(iteraSuma);
+}
+console.log(resultado);
+
+
+e. Calcular el promedio de la copia
+
+var a = [1,2,3,4,5,6];
+var i = 0;
+let resultado = [];
+for(i = 0;i < a.length; i++){
+var iteraSuma = a[i] + 12
+resultado.push(iteraSuma )
+console.log(iteraSuma);
+}
+var resulta = []
+var promedio = 0;
+var promedio1 = 0;
+for(var j = 0; j < resultado.length ;j++){
+resulta[j] = resultado[j]
+promedio = promedio + resulta[j]
+promedio1 = promedio/resulta.length
+}
+alert("El promedio de los numeros que se encuentran en el array es de " + promedio1)
+
+
+2. Dado un número ingresado por el usuario, crear la serie de Fibonacci.
+
+var numero = parseInt(prompt("Digite un numero"))
+var fibonacci = 1
+var fibonacci1 = 1
+var acumula;
+for(var i = 1;i <= numero ;i++){
+console.log(fibonacci)
+acumula = fibonacci + fibonacci1
+fibonacci = fibonacci1
+fibonacci1 = acumula
+}
+
+3. El usuario ingresa un número, se pide crear la siguiente pirámide (console.log) hasta dicho número ingresado
+
+var numero = (prompt("Ingrese numero"));
+for (var i = 1; i <= numero; i++){
+    var aste = ""
+    var resultado = [];
+ for (var j = 1; j <= i; j++){
+    aste = "*"
+    resultado.push(aste)
+  }
+  console.log(resultado);
+ }
+for ( i = numero; i >= 1; --i){
+ resultado.pop(i)
+ console.log(resultado)
+}
+
+4. Estructura HTML de alta (crear) y listado de productos. NO HACE FALTA ESTILOS (CSS)
+

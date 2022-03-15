@@ -1,0 +1,69 @@
+.ibero{
+    display: flex;
+    width: 300px;
+    height: 100px;
+}
+.entradas{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin-left: 410px;
+    margin-top: 5px;
+    
+}
+.areaT{
+    display: flex;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 280px;
+}
+.archivo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 410px;
+}
+.tituloh2{
+    display: flex;
+    margin-left: 490px;
+}
+.btnLimpiar{
+    background-color: darksalmon;
+    padding: 7px;
+    margin: 30px;
+}
+.btnContinuar{
+    background-color:rgb(74, 86, 202);
+    padding: 7px;
+    margin: 30px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+#botones{
+    display: flex;
+    flex-direction: row;
+    margin-left: 480px;
+}
+#tabla{
+    display: flex;
+    width: 78%;
+    text-align: center;
+    padding: 5px;
+    border: solid;
+    margin-left:200px;
+    background-color:rgb(228, 230, 165);
+
+}
+.tituloTabla{
+    text-align: center;
+    color: rebeccapurple;
+}
+.btnVolver{
+    display: flex;
+    margin-left: 270px;
+    margin-top: 30px;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 8px;
+}
